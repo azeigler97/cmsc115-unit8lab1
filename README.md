@@ -4,33 +4,33 @@
 Zeigler, Austin G.
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+[https://github.com/azeigler97/cmsc115-unit8lab1]
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- All starter files provided for the lab, including `BuggyProgram.java` and this `README.md` template[cite: 3].
 
 ## What was the purpose of this commit?
--
+- To establish a stable baseline version of the project in Git before making any code modifications or bug fixes.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- Boundary tests for scores around 80 and 90, as well as cases where the return strings were mismatched with the expected categories.
 
 ## What was the issue in the code?
--
+- The conditional logic checked thresholds incorrectly and swapped the return values for "Exceeds" and "Meets".
 
 ## What change did you make to fix it?
--
+- Reordered the conditional statements from highest to lowest score and updated the relational operators to use inclusive thresholds (`>=`).
 
 ## How did the tests help guide your fix?
--
+- Running the unit tests immediately pointed out which specific score ranges failed, making it clear which conditional branch was misclassifying the grade.
 
 ---
 
