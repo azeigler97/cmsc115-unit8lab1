@@ -53,16 +53,16 @@ Zeigler, Austin G.
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- Tests checking boundary behaviors or ranges where the start value is greater than the end value (descending ranges).
 
 ## What was the issue in the code?
--
+- The original loop only handled ascending sequences and lacked support for inverted bounds.
 
 ## What change did you make to fix it?
--
+- Added conditional logic to handle both ascending and descending range loops correctly.
 
 ## How did the tests help guide your fix?
--
+- The assertion failures highlighted incorrect totals when boundaries crossed or inverted, directing me straight to the loop conditions.
 
 ---
 
