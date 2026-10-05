@@ -69,26 +69,26 @@ Zeigler, Austin G.
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 1 (`getGrade`) was the most straightforward because conditional logic issues are easy to trace visually by matching score brackets against test expectations.
 
 ## Which task was the most difficult? Why?
--
+- Task 3 (`sumRange`) required careful attention to detail regarding boundary conditions and range direction.
 
 ## How did Git help you track your progress through the debugging process?
--
+- Git allowed me to isolate each bug fix into its own clean, dedicated commit, mapping every stage of the project directly to a resolved task.
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- Making atomic, single-purpose commits ensures that if a change introduces a bug or regression, you can easily isolate, review, or roll back that specific modification without losing unrelated work.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- JUnit tests act as an objective specification; instead of guessing why code fails, running tests provides immediate, granular feedback on what inputs failed and what output was expected.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- I filled out all student information, repository links, task-specific reflection questions, and overall reflection sections in this `README.md` file.
 
 ## Why is it useful to document your work after completing a programming task?
--
+- Documentation solidifies your understanding of the problem-solving process, aids in future troubleshooting, and provides clear communication to instructors or collaborators regarding what was fixed and why.

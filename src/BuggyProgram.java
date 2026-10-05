@@ -40,9 +40,4 @@ public class BuggyProgram {
 
         return sum;
     }
-
-    public static void main(String[] args ){
-        System.out.println("Test the program using the JUnit tests");
-    }
-
 }
