@@ -37,16 +37,16 @@ Zeigler, Austin G.
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- Tests involving arrays with mixed numbers, empty arrays, or negative numbers threw index out-of-bounds exceptions or returned incorrect initial offset sums.
 
 ## What was the issue in the code?
--
+- The sum accumulator was incorrectly initialized to `1` instead of `0`, and the loop condition used `<=` instead of `<`, causing an `ArrayIndexOutOfBoundsException` at the end of the array.
 
 ## What change did you make to fix it?
--
+- Initialized `sum = 0` and changed the loop condition to `i < values.length`.
 
 ## How did the tests help guide your fix?
--
+- The assertion failures showed the exact expected versus actual sums, making it clear when odd numbers or improper initialization values were skewing the results.
 
 ---
 
