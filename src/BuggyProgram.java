@@ -13,9 +13,9 @@ public class BuggyProgram {
 
     // Method 2: loop with array
     public static int sumEvenNumbers(int[] values) {
-        int sum = 0; // Fixed: accumulator should start at 0, not 1
+        int sum = 0;
 
-        for (int i = 0; i < values.length; i++) { // Fixed: changed <= to < to prevent out of bounds error
+        for (int i = 0; i < values.length; i++) {
             if (values[i] % 2 == 0) {
                 sum += values[i];
             }
@@ -40,4 +40,9 @@ public class BuggyProgram {
 
         return sum;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Test the program using the JUnit tests");
+    }
+
 }
